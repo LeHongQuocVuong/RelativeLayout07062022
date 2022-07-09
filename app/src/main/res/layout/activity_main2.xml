@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+
+        android:id="@+id/tv4"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:background="#673AB7"
+        android:textSize="35sp"
+        android:text="4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:layout_above="@+id/tv4"
+        android:layout_toStartOf="@id/tv4"
+        android:id="@+id/tv3"
+        android:gravity="center"
+        android:background="#FFEB3B"
+        android:textSize="35sp"
+        android:text="3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:layout_above="@+id/tv3"
+        android:layout_toStartOf="@id/tv3"
+        android:id="@+id/tv2"
+        android:gravity="center"
+        android:background="#4CAF50"
+        android:textSize="35sp"
+        android:text="2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:layout_above="@+id/tv2"
+        android:layout_toStartOf="@id/tv2"
+        android:id="@+id/tv1"
+        android:gravity="center"
+        android:background="#f20"
+        android:textSize="35sp"
+        android:text="1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:layout_below="@+id/tv4"
+        android:layout_toStartOf="@id/tv4"
+        android:id="@+id/tv5"
+        android:gravity="center"
+        android:background="#FF9800"
+        android:textSize="35sp"
+        android:text="5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:layout_below="@+id/tv5"
+        android:layout_toStartOf="@id/tv5"
+        android:id="@+id/tv6"
+        android:gravity="center"
+        android:background="#E33DFF"
+        android:textSize="35sp"
+        android:text="6"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:layout_below="@+id/tv6"
+        android:layout_toStartOf="@id/tv6"
+        android:id="@+id/tv7"
+        android:gravity="center"
+        android:background="#00BCD4"
+        android:textSize="35sp"
+        android:text="7"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+
+
+
+</RelativeLayout>
